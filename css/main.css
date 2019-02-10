@@ -1,0 +1,61 @@
+body {
+}
+.total {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:;
+  margin: 70px 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+input {
+  border: 3px solid grey;
+  border-radius: 10px;
+  width: 175px;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+}
+.plus {
+  background-color: grey;
+  color: white;
+  font-size: 60px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 25px;
+  align-content: center;
+  display: grid;
+}
+.minus {
+  background-color: grey;
+  color: white;
+  font-size: 60px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 25px;
+  align-content: center;
+  display: grid;
+}
+.plus:hover {
+  background-color: white;
+  color: grey;
+}
+
+.minus:hover {
+  background-color: white;
+  color: grey;
+}
